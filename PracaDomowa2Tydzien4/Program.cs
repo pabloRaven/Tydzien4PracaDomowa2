@@ -30,12 +30,7 @@ namespace PracaDomowa2Tydzien4
             
         }
 
-        
-
-
-
-        }
-        
-
     }
+
+}
 
