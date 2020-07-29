@@ -28,7 +28,7 @@ namespace PracaDomowa2Tydzien4
             }
             else
             {
-                return ($"Podałeś liczbe : {number}") ;
+                return $"Podałeś liczbe : {number}" ;
             }
         }
     }
