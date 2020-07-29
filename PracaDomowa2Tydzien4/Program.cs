@@ -10,18 +10,17 @@ namespace PracaDomowa2Tydzien4
     {
         
         static void Main(string[] args)
-        {
-                      
+        {                     
 
             try
             {
+                Console.WriteLine("Program FIZBAZZ");
                 var fizBazz = new FizzBazz();
 
                 Console.WriteLine("Podaj Liczbę całkowitą : ");
                 var number = int.Parse(Console.ReadLine());
                 var result = fizBazz.FizzBuzzResult(number);
                 Console.WriteLine(result);
-
             }
             catch (Exception)
             {

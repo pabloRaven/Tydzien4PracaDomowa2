@@ -25,13 +25,11 @@ namespace PracaDomowa2Tydzien4
             else if (number % 5 == 0)
             {
                 return "Bazz";
-
             }
             else
             {
-                return ("Podałeś liczbe : "+ number.ToString()) ;
+                return ($"Podałeś liczbe : {number}") ;
             }
-
         }
     }
 }
